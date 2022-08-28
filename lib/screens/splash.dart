@@ -63,11 +63,6 @@ class _SplashState extends State<Splash> {
       //comment this
       navigateAfterSeconds:access_token.$.isNotEmpty?Home():Login(),
       //navigateAfterFuture: loadFromFuture(), //uncomment this
-      version: Text(
-        "version " + _packageInfo.version,
-        style: TextStyle(
-            fontWeight: FontWeight.bold, fontSize: 11.0, color: MyTheme.app_accent_border),
-      ),
       useLoader: false,
       loadingText: Text(
         AppConfig.app_name,

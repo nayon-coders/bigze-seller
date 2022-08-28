@@ -30,6 +30,6 @@ class AppConfig {
   static const String PROTOCOL = HTTPS ? "https://" : "http://";
   static const String SELLER_PREFIX = "seller";
   static const String RAW_BASE_URL = "$PROTOCOL$DOMAIN_PATH";
-  static const String BASE_URL = "https://bigzbe.com/api/v2/seller";
+  static const String BASE_URL = "$RAW_BASE_URL/$API_ENDPATH";
   static const String BASE_URL_WITH_PREFIX = "$BASE_URL/$SELLER_PREFIX";
 }
