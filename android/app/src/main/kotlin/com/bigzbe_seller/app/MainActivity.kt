@@ -1,4 +1,4 @@
-package com.activeitzone.active_ecommerce_seller_app
+package com.bigzbe_seller.app
 
 import io.flutter.embedding.android.FlutterActivity
 

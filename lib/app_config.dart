@@ -10,7 +10,6 @@ class AppConfig {
   //configure this
   static const bool HTTPS = false;
 
-
   //
 
 
